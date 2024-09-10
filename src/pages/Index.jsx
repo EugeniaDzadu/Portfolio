@@ -124,8 +124,8 @@ function Index() {
           <div className="row">
             <div className="col-lg-4">
               <div className="text-container first">
-                <h2>Hi there I'm Eugenia,</h2>
-                <p>
+                <h2 style={{ fontSize: '20px' }}>Hi there I'm Eugenia,</h2>
+                <p style={{ fontSize: '18px' }}>
                   And I love to create beautiful and efficient websites for my
                   customers. I love going through the entire process with the
                   customer from concept, to design and then development and
@@ -133,26 +133,16 @@ function Index() {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-6">
               <div className="text-container second">
-                <div className="time">2019 - PRESENT</div>
-                <h6>Freelance Web Developer</h6>
-                <p>Working happily on my own web projects</p>
-                <div className="time">2018 - 2019</div>
-                <h6>Lead Web Developer</h6>
-                <p>Beautiful project for a major digital agency</p>
+              <div className="time" style={{ fontSize: '18px' }}>2022 - PRESENT</div>
+                <h6 style={{ fontSize: '20px' }}> A Passionate Frontend Developer</h6>
+                <p style={{ fontSize: '18px' }}>Currently working independently on various web projects.</p>
+                <p style={{ fontSize: '18px' }}>Successfully delivered a high-impact project for a major digital agency.</p>
+                <p style={{ fontSize: '18px' }}>Gained experience as a Junior Web Designer for a small web agency and several e-commerce firms.</p>
               </div>
             </div>
-            <div className="col-lg-4">
-              <div className="text-container third">
-                <div className="time">2017 - 2018</div>
-                <h6>Senior Web Designer</h6>
-                <p>Inhouse web designer for ecommerce firm</p>
-                <div className="time">2016 - 2017</div>
-                <h6>Junior Web Designer</h6>
-                <p>Junior web designer for small web agency</p>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
@@ -163,8 +153,8 @@ function Index() {
             <div className="col-lg-12">
               <h2 className="h2-heading">Offered services</h2>
               <p className="p-heading">
-                Web design and development have been my bread and butter for
-                more than 5 years. During that time I've discovered that I can
+                Web development have been my bread and butter for
+                more 3 years. During that time I've discovered that I can
                 help startups and companies with the following services
               </p>
             </div>
@@ -224,28 +214,47 @@ function Index() {
                   <br />
 
 
-                  <div className="icons-container">
-                    <img
-                      src="images/react icon.png"
-                      alt="alternative"
-                    />
-                    <img
-                      src="images/details ejs-icon.png"
-                      alt="alternative"
-                    />
-                    <img src="images/details-icon-html.png" alt="alternative" />
-                    <i className="fa-brands fa- fa-2xl"></i>
-                    <img src="images/details-icon-css.png" alt="alternative" />
-                    <i className="fa-brands fa-bootstrap fa-2xl"></i>
-                    <img
-                      src="images/details-icon-javascript.png"
-                      alt="alternative"
-                    />
-              
-                    <i className="fa-brands fa-vuejs fa-2xl"></i>
+                  <div
+  className="icons-container"
+  style={{
+    padding: '20px',
+    display: 'flex',
+    gap: '20px',
+    justifyContent: 'center',
+  }}
+>
+  <i
+    className="fa-brands fa-react fa-2xl"
+    style={{ color: '#61DBFB' }} // React color
+  ></i>
+  <i
+    className="fab fa-html5 fa-2xl"
+    style={{ color: '#E34F26' }} // HTML5 color
+  ></i>
+  <i
+    className="fa-brands fa-css3 fa-2xl"
+    style={{ color: '#264de4' }} // CSS3 color
+  ></i>
+  <i
+    className="fa-brands fa-bootstrap fa-2xl"
+    style={{ color: '#563d7c' }} // Bootstrap color
+  ></i>
+  <i
+    className="fa-brands fa-js fa-2xl"
+    style={{ color: '#F7DF1E' }} // JavaScript yellow color
+  ></i>
+  <i
+    className="fa-brands fa-vuejs fa-2xl"
+    style={{ color: '#42b883' }} // Vue.js color
+  ></i>
+  <img
+    src="images/details ejs-icon.png"
+    alt="alternative"
+    style={{ width: '50px', height: '50px', marginTop: '-20px'}}
+  />
+</div>
 
 
-                  </div>
                 </div>
               </div>
             </div>

@@ -3,7 +3,6 @@ import { HashLink } from "react-router-hash-link";
 
 function Navbar(){
       return(
-         <>
            
             <div className="container">
             
@@ -30,11 +29,11 @@ function Navbar(){
                     <li className="nav-item dropdown">
                         <HashLink className="nav-link dropdown-toggle" smooth to="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</HashLink>
                         <div className="dropdown-menu" aria-labelledby="dropdown01">
-                            <Link classNameName="dropdown-item page-scroll" to="/privacy">Privacy Policy</Link>
+                            <Link className="dropdown-item page-scroll" to="/privacy">Privacy Policy</Link>
                         </div>
                     </li>
                     <li className="nav-item">
-                        <HashLink className="nav-link page-scroll" smooth to="/#contact">Contact</HashLink>
+                        {/* <HashLink className="nav-link page-scroll" smooth to="/#contact">Contact</HashLink> */}
                     </li>
                 </ul>
                 <span className="nav-item social-icons">
@@ -53,14 +52,6 @@ function Navbar(){
                 </span>
             </div>
         </div>
-    
-            
-            
-            
-         </>
-
-      )
-
-}
+)}
 
 export default Navbar;
