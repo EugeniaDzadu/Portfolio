@@ -9,14 +9,14 @@ function Footer(){
                 <div className="col-lg-12">
                     <div className="social-container">
                         <span className="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://github.com/EugeniaDzadu">
                                 {/* <i className="fas fa-circle fa-stack-2x"></i> */}
                                 {/* <i className="fab fa-facebook-f fa-stack-1x"></i> */}
-                                <i className="fa-brands fa-facebook fa-xl" style={{color: "#fffafa"}}></i>
+                                <i className="fa-brands fa-github fa-xl" style={{color: "#fffafa"}}></i>
                             </a>
                         </span>
                         <span className="fa-stack">
-                            <Link to="#your-link">
+                            <Link to="http://www.linkedin.com/in/EugeniaDzadu">
                                 {/* <i className="fas fa-circle fa-stack-2x"></i> */}
                                 {/* <i className="fab fa-twitter fa-stack-1x"></i> */}
                                 <i className="fa-brands fa-linkedin fa-xl" style={{color: "#fffafa"}}></i>
@@ -31,13 +31,13 @@ function Footer(){
                             </Link>
                         </span>
                         <span className="fa-stack">
-                            <Link href="#your-link">
+                            <Link href="#https://www.instagram.com/just_xquisyte/">
                                 {/* <i className="fas fa-circle fa-stack-2x"></i> */}
                                 <i className="fa-brands fa-instagram fa-xl" style={{color: "#fffafa"}}></i>
                             </Link>
                         </span>
                         <span className="fa-stack">
-                            <Link href="#your-link">
+                            <Link href="http://www.X.com/_exornam_fr">
                                 {/* <i className="fas fa-circle fa-stack-2x"></i> */}
                                 <i className="fa-brands fa-x fa-xl" style={{color: "#fffafa"}}></i>
                             </Link>

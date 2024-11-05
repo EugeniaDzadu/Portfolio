@@ -524,10 +524,15 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/IMG_4001.jpg') center center no-repeat;
-	background-size: cover;
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+		url('../images/Jeenia.jpg') center center no-repeat;
+	background-size: contain;
+	background-color: #f4c7b0; /* Replace with a hex color similar to your shirt or skin tone */
 	text-align: center;
 }
+
+
 
 .header .h1-large {
 	margin-bottom: 1.75rem;
