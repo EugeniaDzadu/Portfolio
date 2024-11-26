@@ -3,10 +3,14 @@ import Footer from "../components/Footer";
 
 import { HashLink } from "react-router-hash-link";
 import Contacts from "../components/Contacts";
+// import PageTitle from "../components/PageTitle";
 
 function Index() {
   return (
     <>
+
+      
+      
       <nav className="navbar navbar-expand-lg fixed-top navbar-dark">
         <div className="container">
           {/* <Link className="navbar-brand logo-image" to="/">
